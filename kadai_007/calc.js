@@ -1,9 +1,6 @@
 // 変数numに1～15のランダムな整数を代入する
 let num = Math.floor(Math.random() * 15) + 1;
 
-// 変数numの値を出力する（確認用）
-console.log(num);
-
 //3と5の倍数の条件
 if (num % 15 == 0) {
     console.log('3と5の倍数です')
